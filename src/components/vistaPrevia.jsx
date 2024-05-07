@@ -12,7 +12,7 @@ function VistaPrevia () {
     <>
         <h4 >Vista Previa</h4>
         <div className='vista-previa container '>
-            <h2 className='titulo' id='titulo'>
+            <h2 className='titulo container' id='titulo'>
                 "{informe.titulo}"
             </h2>
             <div className='header'>

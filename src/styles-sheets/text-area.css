@@ -1,6 +1,10 @@
 .text-area{
     margin-top: 20px;
-    background-color: rgb(78, 152, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
 }
 
 input{
@@ -9,22 +13,24 @@ input{
     margin-top: 30px;
     margin-bottom: 20px;
     margin: 10px;
-    width: 300px;
+    width: 40%;
 }
 
 .editor{
-    width: 600px;
+    width:600px;
     border: black 2px solid;
     background-color:rgb(162, 192, 232) ;
     font-weight: 800;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.form-label {
+#editor {
     border: 2px solid black;
     margin-bottom: -1px;
     border-radius: 3px;
-    width: 600px;
+    width: 300px;
     font-weight: bold;
     font-size: 25px;
     padding-left:20px ;
@@ -37,7 +43,8 @@ input{
 }
 
 #Foto{
-    width: 400px;
+    max-width: 400px;
+    text-align: center;
 }
 
 
@@ -46,19 +53,18 @@ input{
  flex-direction: row;
 }
 
-.input-area-a{
-    flex-direction: row;
-    margin-bottom: 10px;
-}
 
 .btn-group {
-    width: 70px;
+    width: 50px;
     height: 40px;
     border: 2px solid black;
     text-align: center;
     margin-top: 10px;
 }
 
+.btn{
+    margin-left: -10px;
+}
 
 .font1{
     font-family: "Poetsen One", sans-serif; ;    
@@ -83,3 +89,26 @@ li:hover{
     color: white;
     transition: all 0.3s ease;
 }
+
+@media (max-width:950px) {
+    .editor{
+        width:300px;
+        border: black 2px solid;
+        background-color:rgb(162, 192, 232) ;
+        font-weight: 800;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    #editor {
+        border: 2px solid black;
+        margin-bottom: -1px;
+        border-radius: 3px;
+        width: 300px;
+        font-weight: bold;
+        font-size: 25px;
+        padding-left:20px ;
+        margin-right: 20px;
+    }
+  }

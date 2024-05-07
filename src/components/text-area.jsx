@@ -65,12 +65,12 @@ function TextArea () {
 
     return (
         <div className='mb-3 text-area contanier'>
-            <h4  className='form-label'>Editor</h4>
+            <h4  id='editor'>Editor</h4>
             <div className='editor contaier d-flex'>
                 <div className='input-area'>
-                    <input id='Titulo' type='text' placeholder='# Aquí pondras tu Titulo' onChange={chTitulo}  />
+                    <input id='Titulo' type='text' placeholder='Titulo' onChange={chTitulo}  />
                     <div className='btn-group'>
-                    <button type='button' className='btn'>Fuente</button>
+                    <button type='button' className='btn'>Font</button>
                     <button type='button' className='btn dropdown-toggle dropdown-toggle-split' data-bs-toggle='dropdown' aria-expanded='false'>
                         <span className='visually-hidden'>Toggle Dropdown</span>
                     </button>
@@ -82,10 +82,10 @@ function TextArea () {
                     </ul>
                     </div>
                 </div>
-                <div classNameName='input-area'>
-                    <input id='Nombre' type='text' placeholder='## Aquí pondras tu Nombre' onChange={chNombre}  />
+                <div classNameName='input-area container'>
+                    <input id='Nombre' type='text' placeholder='Nombre' onChange={chNombre}  />
                     <div className='btn-group'>
-                    <button type='button' className='btn'>Fuente</button>
+                    <button type='button' className='btn'>Font</button>
                     <button type='button' className='btn dropdown-toggle dropdown-toggle-split' data-bs-toggle='dropdown' aria-expanded='false'>
                         <span className='visually-hidden'>Toggle Dropdown</span>
                     </button>
@@ -97,12 +97,12 @@ function TextArea () {
                     </ul>
                     </div>
                 </div>
-                    <input id='Foto' type='text' placeholder='### Aquí pondras la direccion de tu foto de perfil' onChange={chFoto}  />
+                    <input id='Foto' type='text' placeholder='Foto URL' onChange={chFoto}  />
                     
-                <div className='input-area'>
+                <div className='input-area container' >
                 <textarea id='Informe' type='text' placeholder='Escribe tu informe' onChange={chInforme}/>
                 <div className='btn-group'>
-                    <button type='button' className='btn'>Fuente</button>
+                    <button type='button' className='btn'>Font</button>
                     <button type='button' className='btn dropdown-toggle dropdown-toggle-split' data-bs-toggle='dropdown' aria-expanded='false'>
                         <span className='visually-hidden'>Toggle Dropdown</span>
                     </button>

@@ -61,7 +61,7 @@ h4{
 
 @media (max-width:950px) {
     .vista-previa{
-        width: 400px;
+        width: 350px;
         border: black 2px solid;
         background-color:rgb(162, 192, 232) ;
         display: flex;

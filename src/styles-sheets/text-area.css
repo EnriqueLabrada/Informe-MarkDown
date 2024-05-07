@@ -96,7 +96,6 @@ li:hover{
     .editor{
         width:300px;
         border: black 2px solid;
-        background-color:rgb(162, 192, 232) ;
         font-weight: 800;
         flex-direction: column;
         justify-content: center;

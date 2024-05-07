@@ -11,7 +11,7 @@ function VistaPrevia () {
     return(
     <>
         <h4 >Vista Previa</h4>
-        <div className='vista-previa container '>
+        <div className='vista-previa container shadow-lg '>
             <h2 className='titulo container' id='titulo'>
                 "{informe.titulo}"
             </h2>

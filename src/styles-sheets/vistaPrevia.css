@@ -2,7 +2,7 @@
     min-height: 100px;
     max-width:900px;
     border: black 2px solid;
-    background-color:rgb(162, 192, 232) ;
+    background-color:rgb(232, 229, 229) ;
     display: flex;
     align-items: center;
     text-align: center;
@@ -11,7 +11,7 @@
 }
 
 h4{
-    background-color: rgb(78, 152, 208);
+    background-color:rgb(190, 178, 178) ;
     border: 2px solid black;
     margin-bottom: -1px;
     border-radius: 3px;
@@ -55,7 +55,7 @@ h4{
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
-    max-width: 400px;
+    max-width: 700px;
     text-align: start;
 }
 
@@ -63,7 +63,6 @@ h4{
     .vista-previa{
         width: 350px;
         border: black 2px solid;
-        background-color:rgb(162, 192, 232) ;
         display: flex;
         align-items: center;
         text-align: center;

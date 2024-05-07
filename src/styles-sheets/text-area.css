@@ -8,7 +8,7 @@
 }
 
 input{
-    background-color:rgb(162, 192, 232) ;
+    background-color:rgb(232, 229, 229) ;
     border: none;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -19,11 +19,12 @@ input{
 .editor{
     width:600px;
     border: black 2px solid;
-    background-color:rgb(162, 192, 232) ;
+    background-color:rgb(232, 229, 229) ;
     font-weight: 800;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 #editor {
@@ -40,6 +41,7 @@ input{
 #Informe{
     margin: 10px;
     width: 70%;
+    background-color:rgb(232, 229, 229) ;
 }
 
 #Foto{

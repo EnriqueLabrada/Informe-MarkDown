@@ -66,7 +66,7 @@ function TextArea () {
     return (
         <div className='mb-3 text-area contanier'>
             <h4  id='editor'>Editor</h4>
-            <div className='editor contaier d-flex'>
+            <div className='editor contaier d-flex shadow-lg'>
                 <div className='input-area'>
                     <input id='Titulo' type='text' placeholder='Titulo' onChange={chTitulo}  />
                     <div className='btn-group'>

@@ -1,0 +1,85 @@
+.text-area{
+    margin-top: 20px;
+    background-color: rgb(78, 152, 208);
+}
+
+input{
+    background-color:rgb(162, 192, 232) ;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.editor{
+    width: 600px;
+    border: black 2px solid;
+    background-color:rgb(162, 192, 232) ;
+    font-weight: 800;
+    flex-direction: column;
+}
+
+.form-label {
+    border: 2px solid black;
+    margin-bottom: -1px;
+    border-radius: 3px;
+    width: 600px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left:20px ;
+}
+
+
+#Informe{
+    margin: 10px;
+    width: 70%;
+}
+
+#Foto{
+    width: 400px;
+}
+
+
+.input-area{
+ display: flex;
+ flex-direction: row;
+}
+
+.input-area-a{
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.btn-group {
+    width: 70px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.font1{
+    font-family: "Poetsen One", sans-serif; ;    
+}
+.font2{
+    font-family:"Sedan SC", sans-serif ;
+}
+.font3{
+    font-family:"Raleway", sans-serif ;
+}
+.font4{
+    font-family:"Briem Hand", sans-serif ;
+}
+
+li{
+    cursor: pointer;
+    padding: 10px;
+}
+
+li:hover{
+    background-color:rgb(78, 152, 208) ;
+    color: white;
+    transition: all 0.3s ease;
+}

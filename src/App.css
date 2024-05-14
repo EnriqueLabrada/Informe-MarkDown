@@ -10,6 +10,25 @@ html, body, .App, #root {
 }
 
 footer{
-  margin-top: 50px;
-  font-weight: bold;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight:bold ;
+}
+
+.enlaces {
+  font-size: 30px;
+}
+
+.enlaces a i {
+  padding: 10px;
+  color: black;
+}
+
+.enlaces a i:hover{
+  transition: all ease 0.3s;
+  color: rgb(213, 84, 99);
+  font-size: 35px;
 }
